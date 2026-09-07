@@ -1,0 +1,10 @@
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ruff_cache/
+.cache/
+*.deb
+*.zip
+*.tar.gz

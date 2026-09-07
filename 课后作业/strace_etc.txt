@@ -1,0 +1,1233 @@
+execve("/bin/ls", ["ls", "-l", "/etc"], 0x7fff4b7bba80 /* 54 vars */) = 0
+brk(NULL)                               = 0x55f534be1000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=78501, ...}) = 0
+mmap(NULL, 78501, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7faf5127b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20b\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=154832, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7faf51279000
+mmap(NULL, 2259152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7faf50e3e000
+mprotect(0x7faf50e63000, 2093056, PROT_NONE) = 0
+mmap(0x7faf51062000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x24000) = 0x7faf51062000
+mmap(0x7faf51064000, 6352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7faf51064000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\35\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2030928, ...}) = 0
+mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7faf50a4d000
+mprotect(0x7faf50c34000, 2097152, PROT_NONE) = 0
+mmap(0x7faf50e34000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7faf50e34000
+mmap(0x7faf50e3a000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7faf50e3a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \25\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=464824, ...}) = 0
+mmap(NULL, 2560264, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7faf507db000
+mprotect(0x7faf5084b000, 2097152, PROT_NONE) = 0
+mmap(0x7faf50a4b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x70000) = 0x7faf50a4b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14560, ...}) = 0
+mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7faf505d7000
+mprotect(0x7faf505da000, 2093056, PROT_NONE) = 0
+mmap(0x7faf507d9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7faf507d9000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000b\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=144976, ...}) = 0
+mmap(NULL, 2221184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7faf503b8000
+mprotect(0x7faf503d2000, 2093056, PROT_NONE) = 0
+mmap(0x7faf505d1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7faf505d1000
+mmap(0x7faf505d3000, 13440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7faf505d3000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7faf51277000
+arch_prctl(ARCH_SET_FS, 0x7faf51278040) = 0
+mprotect(0x7faf50e34000, 16384, PROT_READ) = 0
+mprotect(0x7faf505d1000, 4096, PROT_READ) = 0
+mprotect(0x7faf507d9000, 4096, PROT_READ) = 0
+mprotect(0x7faf50a4b000, 4096, PROT_READ) = 0
+mprotect(0x7faf51062000, 4096, PROT_READ) = 0
+mprotect(0x55f5341a9000, 8192, PROT_READ) = 0
+mprotect(0x7faf5128f000, 4096, PROT_READ) = 0
+munmap(0x7faf5127b000, 78501)           = 0
+set_tid_address(0x7faf51278310)         = 3069
+set_robust_list(0x7faf51278320, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7faf503bdcb0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7faf503ca980}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7faf503bdd50, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7faf503ca980}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+statfs("/sys/fs/selinux", 0x7ffc9bff41a0) = -1 ENOENT (No such file or directory)
+statfs("/selinux", 0x7ffc9bff41a0)      = -1 ENOENT (No such file or directory)
+brk(NULL)                               = 0x55f534be1000
+brk(0x55f534c02000)                     = 0x55f534c02000
+openat(AT_FDCWD, "/proc/filesystems", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(3, "nodev\tsysfs\nnodev\ttmpfs\nnodev\tbd"..., 1024) = 369
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+access("/etc/selinux/config", F_OK)     = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=10281936, ...}) = 0
+mmap(NULL, 10281936, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7faf4f9e9000
+close(3)                                = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=73, ws_col=275, ws_xpixel=0, ws_ypixel=0}) = 0
+openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2995, ...}) = 0
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2995
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/share/locale/zh_CN/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/zh/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=26376, ...}) = 0
+mmap(NULL, 26376, PROT_READ, MAP_SHARED, 3, 0) = 0x7faf51288000
+close(3)                                = 0
+futex(0x7faf50e39a08, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+lstat("/etc", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lgetxattr("/etc", "security.selinux", 0x55f534be2ec0, 255) = -1 ENODATA (No data available)
+getxattr("/etc", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=556, ...}) = 0
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 556
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=78501, ...}) = 0
+mmap(NULL, 78501, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7faf51263000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\22\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=39744, ...}) = 0
+mmap(NULL, 2136256, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7faf4f7df000
+mprotect(0x7faf4f7e7000, 2097152, PROT_NONE) = 0
+mmap(0x7faf4f9e7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7faf4f9e7000
+close(3)                                = 0
+mprotect(0x7faf4f9e7000, 4096, PROT_READ) = 0
+munmap(0x7faf51263000, 78501)           = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=78501, ...}) = 0
+mmap(NULL, 78501, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7faf51263000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p \0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47576, ...}) = 0
+mmap(NULL, 2143624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7faf4f5d3000
+mprotect(0x7faf4f5de000, 2093056, PROT_NONE) = 0
+mmap(0x7faf4f7dd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7faf4f7dd000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220@\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=97176, ...}) = 0
+mmap(NULL, 2202200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7faf4f3b9000
+mprotect(0x7faf4f3d0000, 2093056, PROT_NONE) = 0
+mmap(0x7faf4f5cf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7faf4f5cf000
+mmap(0x7faf4f5d1000, 6744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7faf4f5d1000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P#\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47568, ...}) = 0
+mmap(NULL, 2168632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7faf4f1a7000
+mprotect(0x7faf4f1b2000, 2093056, PROT_NONE) = 0
+mmap(0x7faf4f3b1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7faf4f3b1000
+mmap(0x7faf4f3b3000, 22328, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7faf4f3b3000
+close(3)                                = 0
+mprotect(0x7faf4f3b1000, 4096, PROT_READ) = 0
+mprotect(0x7faf4f5cf000, 4096, PROT_READ) = 0
+mprotect(0x7faf4f7dd000, 4096, PROT_READ) = 0
+munmap(0x7faf51263000, 78501)           = 0
+openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2473, ...}) = 0
+mmap(NULL, 2473, PROT_READ, MAP_SHARED, 3, 0) = 0x7faf51287000
+lseek(3, 2473, SEEK_SET)                = 2473
+munmap(0x7faf51287000, 2473)            = 0
+close(3)                                = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 3
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1020, ...}) = 0
+mmap(NULL, 1020, PROT_READ, MAP_SHARED, 3, 0) = 0x7faf51287000
+lseek(3, 1020, SEEK_SET)                = 1020
+munmap(0x7faf51287000, 1020)            = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/etc", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+getdents(3, /* 223 entries */, 32768)   = 7184
+lstat("/etc/inputrc", {st_mode=S_IFREG|0644, st_size=1748, ...}) = 0
+lgetxattr("/etc/inputrc", "security.selinux", 0x55f534bf3570, 255) = -1 ENODATA (No data available)
+getxattr("/etc/inputrc", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/xdg", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/xdg", "security.selinux", 0x55f534bf3680, 255) = -1 ENODATA (No data available)
+getxattr("/etc/xdg", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/xdg", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/tmpfiles.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/tmpfiles.d", "security.selinux", 0x55f534bf37b0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/tmpfiles.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/tmpfiles.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/mtools.conf", {st_mode=S_IFREG|0644, st_size=624, ...}) = 0
+lgetxattr("/etc/mtools.conf", "security.selinux", 0x55f534bf38e0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/mtools.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/chatscripts", {st_mode=S_IFDIR|S_ISGID|0750, st_size=4096, ...}) = 0
+lgetxattr("/etc/chatscripts", "security.selinux", 0x55f534bf3a10, 255) = -1 ENODATA (No data available)
+getxattr("/etc/chatscripts", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/chatscripts", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 4
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=1020, ...}) = 0
+mmap(NULL, 1020, PROT_READ, MAP_SHARED, 4, 0) = 0x7faf51287000
+lseek(4, 1020, SEEK_SET)                = 1020
+munmap(0x7faf51287000, 1020)            = 0
+close(4)                                = 0
+lstat("/etc/pulse", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/pulse", "security.selinux", 0x55f534bf3b60, 255) = -1 ENODATA (No data available)
+getxattr("/etc/pulse", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/pulse", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/pnm2ppa.conf", {st_mode=S_IFREG|0644, st_size=7649, ...}) = 0
+lgetxattr("/etc/pnm2ppa.conf", "security.selinux", 0x55f534bf3c90, 255) = -1 ENODATA (No data available)
+getxattr("/etc/pnm2ppa.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/bluetooth", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/bluetooth", "security.selinux", 0x55f534bf3cb0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/bluetooth", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/bluetooth", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/ca-certificates", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/ca-certificates", "security.selinux", 0x55f534bf3cd0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/ca-certificates", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/ca-certificates", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/anacrontab", {st_mode=S_IFREG|0644, st_size=401, ...}) = 0
+lgetxattr("/etc/anacrontab", "security.selinux", 0x55f534bf3cf0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/anacrontab", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/logrotate.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/logrotate.d", "security.selinux", 0x55f534bf3d10, 255) = -1 ENODATA (No data available)
+getxattr("/etc/logrotate.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/logrotate.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/fwupd", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/fwupd", "security.selinux", 0x55f534bf3d30, 255) = -1 ENODATA (No data available)
+getxattr("/etc/fwupd", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/fwupd", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/popularity-contest.conf", {st_mode=S_IFREG|0664, st_size=350, ...}) = 0
+lgetxattr("/etc/popularity-contest.conf", "security.selinux", 0x55f534bf3d50, 255) = -1 ENODATA (No data available)
+getxattr("/etc/popularity-contest.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/mime.types", {st_mode=S_IFREG|0644, st_size=24301, ...}) = 0
+lgetxattr("/etc/mime.types", "security.selinux", 0x55f534bf3d70, 255) = -1 ENODATA (No data available)
+getxattr("/etc/mime.types", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/deluser.conf", {st_mode=S_IFREG|0644, st_size=604, ...}) = 0
+lgetxattr("/etc/deluser.conf", "security.selinux", 0x55f534bf3d90, 255) = -1 ENODATA (No data available)
+getxattr("/etc/deluser.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/hosts.allow", {st_mode=S_IFREG|0644, st_size=411, ...}) = 0
+lgetxattr("/etc/hosts.allow", "security.selinux", 0x55f534bf3db0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/hosts.allow", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/rc3.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/rc3.d", "security.selinux", 0x55f534bf3dd0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/rc3.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/rc3.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/resolvconf", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/resolvconf", "security.selinux", 0x55f534bf3df0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/resolvconf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/resolvconf", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/python3", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/python3", "security.selinux", 0x55f534bf3e10, 255) = -1 ENODATA (No data available)
+getxattr("/etc/python3", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/python3", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/ghostscript", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/ghostscript", "security.selinux", 0x55f534bf3e30, 255) = -1 ENODATA (No data available)
+getxattr("/etc/ghostscript", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/ghostscript", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/udisks2", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/udisks2", "security.selinux", 0x55f534bf3e50, 255) = -1 ENODATA (No data available)
+getxattr("/etc/udisks2", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/udisks2", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/sudoers", {st_mode=S_IFREG|0440, st_size=755, ...}) = 0
+lgetxattr("/etc/sudoers", "security.selinux", 0x55f534bf3e70, 255) = -1 ENODATA (No data available)
+getxattr("/etc/sudoers", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/adduser.conf", {st_mode=S_IFREG|0644, st_size=3028, ...}) = 0
+lgetxattr("/etc/adduser.conf", "security.selinux", 0x55f534bf3e90, 255) = -1 ENODATA (No data available)
+getxattr("/etc/adduser.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/dbus-1", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/dbus-1", "security.selinux", 0x55f534bf3eb0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/dbus-1", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/dbus-1", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/libaudit.conf", {st_mode=S_IFREG|0644, st_size=191, ...}) = 0
+lgetxattr("/etc/libaudit.conf", "security.selinux", 0x55f534bf3ed0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/libaudit.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/ubuntu-advantage", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/ubuntu-advantage", "security.selinux", 0x55f534bf3ef0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/ubuntu-advantage", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/ubuntu-advantage", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/sysctl.conf", {st_mode=S_IFREG|0644, st_size=2683, ...}) = 0
+lgetxattr("/etc/sysctl.conf", "security.selinux", 0x55f534bf3f10, 255) = -1 ENODATA (No data available)
+getxattr("/etc/sysctl.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/appstream.conf", {st_mode=S_IFREG|0644, st_size=769, ...}) = 0
+lgetxattr("/etc/appstream.conf", "security.selinux", 0x55f534bf3f30, 255) = -1 ENODATA (No data available)
+getxattr("/etc/appstream.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/locale.alias", {st_mode=S_IFREG|0644, st_size=2995, ...}) = 0
+lgetxattr("/etc/locale.alias", "security.selinux", 0x55f534bf3f50, 255) = -1 ENODATA (No data available)
+getxattr("/etc/locale.alias", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/emacs", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/emacs", "security.selinux", 0x55f534bf3f70, 255) = -1 ENODATA (No data available)
+getxattr("/etc/emacs", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/emacs", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/apg.conf", {st_mode=S_IFREG|0644, st_size=433, ...}) = 0
+lgetxattr("/etc/apg.conf", "security.selinux", 0x55f534bf3f90, 255) = -1 ENODATA (No data available)
+getxattr("/etc/apg.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/networks", {st_mode=S_IFREG|0644, st_size=91, ...}) = 0
+lgetxattr("/etc/networks", "security.selinux", 0x55f534bf3fb0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/networks", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/avahi", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/avahi", "security.selinux", 0x55f534bf3fd0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/avahi", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/avahi", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/group", {st_mode=S_IFREG|0644, st_size=1020, ...}) = 0
+lgetxattr("/etc/group", "security.selinux", 0x55f534bf3ff0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/group", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/apache2", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/apache2", "security.selinux", 0x55f534bf4010, 255) = -1 ENODATA (No data available)
+getxattr("/etc/apache2", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/apache2", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/init.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/init.d", "security.selinux", 0x55f534bf4030, 255) = -1 ENODATA (No data available)
+getxattr("/etc/init.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/init.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/glvnd", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/glvnd", "security.selinux", 0x55f534bf4050, 255) = -1 ENODATA (No data available)
+getxattr("/etc/glvnd", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/glvnd", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/host.conf", {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+lgetxattr("/etc/host.conf", "security.selinux", 0x55f534bf4070, 255) = -1 ENODATA (No data available)
+getxattr("/etc/host.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/locale.gen", {st_mode=S_IFREG|0644, st_size=9393, ...}) = 0
+lgetxattr("/etc/locale.gen", "security.selinux", 0x55f534bf4090, 255) = -1 ENODATA (No data available)
+getxattr("/etc/locale.gen", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/pam.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/pam.d", "security.selinux", 0x55f534bf40b0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/pam.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/pam.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/hosts", {st_mode=S_IFREG|0644, st_size=239, ...}) = 0
+lgetxattr("/etc/hosts", "security.selinux", 0x55f534bf40d0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/hosts", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/cracklib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/cracklib", "security.selinux", 0x55f534bf40f0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/cracklib", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/cracklib", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/sysctl.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/sysctl.d", "security.selinux", 0x55f534bf4110, 255) = -1 ENODATA (No data available)
+getxattr("/etc/sysctl.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/sysctl.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/vim", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/vim", "security.selinux", 0x55f534bf4130, 255) = -1 ENODATA (No data available)
+getxattr("/etc/vim", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/vim", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/logcheck", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/logcheck", "security.selinux", 0x55f534bf4150, 255) = -1 ENODATA (No data available)
+getxattr("/etc/logcheck", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/logcheck", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/papersize", {st_mode=S_IFREG|0664, st_size=3, ...}) = 0
+lgetxattr("/etc/papersize", "security.selinux", 0x55f534bf4170, 255) = -1 ENODATA (No data available)
+getxattr("/etc/papersize", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/rpc", {st_mode=S_IFREG|0644, st_size=887, ...}) = 0
+lgetxattr("/etc/rpc", "security.selinux", 0x55f534bf4190, 255) = -1 ENODATA (No data available)
+getxattr("/etc/rpc", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/cupshelpers", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/cupshelpers", "security.selinux", 0x55f534bf41b0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/cupshelpers", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/cupshelpers", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/shadow", {st_mode=S_IFREG|0640, st_size=1301, ...}) = 0
+lgetxattr("/etc/shadow", "security.selinux", 0x55f534bf41d0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/shadow", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 4
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=1020, ...}) = 0
+mmap(NULL, 1020, PROT_READ, MAP_SHARED, 4, 0) = 0x7faf51287000
+lseek(4, 1020, SEEK_SET)                = 1020
+munmap(0x7faf51287000, 1020)            = 0
+close(4)                                = 0
+lstat("/etc/python3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/python3.6", "security.selinux", 0x55f534bf4210, 255) = -1 ENODATA (No data available)
+getxattr("/etc/python3.6", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/python3.6", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/shells", {st_mode=S_IFREG|0644, st_size=73, ...}) = 0
+lgetxattr("/etc/shells", "security.selinux", 0x55f534bf4230, 255) = -1 ENODATA (No data available)
+getxattr("/etc/shells", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/resolv.conf", {st_mode=S_IFLNK|0777, st_size=39, ...}) = 0
+lgetxattr("/etc/resolv.conf", "security.selinux", 0x55f534bf4250, 255) = -1 ENODATA (No data available)
+readlink("/etc/resolv.conf", "../run/systemd/resolve/stub-reso"..., 40) = 39
+lstat("/etc/hosts.deny", {st_mode=S_IFREG|0644, st_size=711, ...}) = 0
+lgetxattr("/etc/hosts.deny", "security.selinux", 0x55f534bf42e0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/hosts.deny", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/libblockdev", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/libblockdev", "security.selinux", 0x55f534bf4300, 255) = -1 ENODATA (No data available)
+getxattr("/etc/libblockdev", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/libblockdev", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/wgetrc", {st_mode=S_IFREG|0644, st_size=4942, ...}) = 0
+lgetxattr("/etc/wgetrc", "security.selinux", 0x55f534bf4320, 255) = -1 ENODATA (No data available)
+getxattr("/etc/wgetrc", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/lsb-release", {st_mode=S_IFREG|0644, st_size=105, ...}) = 0
+lgetxattr("/etc/lsb-release", "security.selinux", 0x55f534bf4340, 255) = -1 ENODATA (No data available)
+getxattr("/etc/lsb-release", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/bash.bashrc", {st_mode=S_IFREG|0644, st_size=2319, ...}) = 0
+lgetxattr("/etc/bash.bashrc", "security.selinux", 0x55f534bf4360, 255) = -1 ENODATA (No data available)
+getxattr("/etc/bash.bashrc", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/sudoers.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/sudoers.d", "security.selinux", 0x55f534bf4380, 255) = -1 ENODATA (No data available)
+getxattr("/etc/sudoers.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/sudoers.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/logrotate.conf", {st_mode=S_IFREG|0644, st_size=703, ...}) = 0
+lgetxattr("/etc/logrotate.conf", "security.selinux", 0x55f534bf43a0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/logrotate.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/ld.so.conf.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/ld.so.conf.d", "security.selinux", 0x55f534bf43c0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/ld.so.conf.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/ld.so.conf.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/libao.conf", {st_mode=S_IFREG|0644, st_size=27, ...}) = 0
+lgetxattr("/etc/libao.conf", "security.selinux", 0x55f534bf43e0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/libao.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/hostname", {st_mode=S_IFREG|0644, st_size=25, ...}) = 0
+lgetxattr("/etc/hostname", "security.selinux", 0x55f534bf4400, 255) = -1 ENODATA (No data available)
+getxattr("/etc/hostname", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/fonts", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/fonts", "security.selinux", 0x55f534bf4420, 255) = -1 ENODATA (No data available)
+getxattr("/etc/fonts", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/fonts", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/issue.net", {st_mode=S_IFREG|0644, st_size=19, ...}) = 0
+lgetxattr("/etc/issue.net", "security.selinux", 0x55f534bf4440, 255) = -1 ENODATA (No data available)
+getxattr("/etc/issue.net", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/legal", {st_mode=S_IFREG|0644, st_size=267, ...}) = 0
+lgetxattr("/etc/legal", "security.selinux", 0x55f534bf4460, 255) = -1 ENODATA (No data available)
+getxattr("/etc/legal", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/cups", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/cups", "security.selinux", 0x55f534bf4480, 255) = -1 ENODATA (No data available)
+getxattr("/etc/cups", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/cups", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 4
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=1020, ...}) = 0
+mmap(NULL, 1020, PROT_READ, MAP_SHARED, 4, 0) = 0x7faf51287000
+lseek(4, 1020, SEEK_SET)                = 1020
+munmap(0x7faf51287000, 1020)            = 0
+close(4)                                = 0
+lstat("/etc/pki", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/pki", "security.selinux", 0x55f534bf44c0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/pki", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/pki", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/python", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/python", "security.selinux", 0x55f534bf44e0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/python", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/python", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/systemd", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/systemd", "security.selinux", 0x55f534bf4500, 255) = -1 ENODATA (No data available)
+getxattr("/etc/systemd", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/systemd", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/services", {st_mode=S_IFREG|0644, st_size=19183, ...}) = 0
+lgetxattr("/etc/services", "security.selinux", 0x55f534bf4520, 255) = -1 ENODATA (No data available)
+getxattr("/etc/services", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/libpaper.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/libpaper.d", "security.selinux", 0x55f534bf4540, 255) = -1 ENODATA (No data available)
+getxattr("/etc/libpaper.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/libpaper.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/rc2.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/rc2.d", "security.selinux", 0x55f534bf4560, 255) = -1 ENODATA (No data available)
+getxattr("/etc/rc2.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/rc2.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/mtab", {st_mode=S_IFLNK|0777, st_size=19, ...}) = 0
+lgetxattr("/etc/mtab", "security.selinux", 0x55f534bf4580, 255) = -1 ENODATA (No data available)
+readlink("/etc/mtab", "../proc/self/mounts", 20) = 19
+lstat("/etc/dictionaries-common", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/dictionaries-common", "security.selinux", 0x55f534bf45f0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/dictionaries-common", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/dictionaries-common", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=556, ...}) = 0
+lgetxattr("/etc/nsswitch.conf", "security.selinux", 0x55f534bf4610, 255) = -1 ENODATA (No data available)
+getxattr("/etc/nsswitch.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/sane.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/sane.d", "security.selinux", 0x55f534bf4630, 255) = -1 ENODATA (No data available)
+getxattr("/etc/sane.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/sane.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/dhcp", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/dhcp", "security.selinux", 0x55f534bf4650, 255) = -1 ENODATA (No data available)
+getxattr("/etc/dhcp", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/dhcp", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/ssl", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/ssl", "security.selinux", 0x55f534bf4670, 255) = -1 ENODATA (No data available)
+getxattr("/etc/ssl", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/ssl", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/perl", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/perl", "security.selinux", 0x55f534bf4690, 255) = -1 ENODATA (No data available)
+getxattr("/etc/perl", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/perl", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/kernel-img.conf", {st_mode=S_IFREG|0644, st_size=110, ...}) = 0
+lgetxattr("/etc/kernel-img.conf", "security.selinux", 0x55f534bf46b0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/kernel-img.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/NetworkManager", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/NetworkManager", "security.selinux", 0x55f534bf46d0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/NetworkManager", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/NetworkManager", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/subgid-", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+lgetxattr("/etc/subgid-", "security.selinux", 0x55f534bf46f0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/subgid-", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/thunderbird", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/thunderbird", "security.selinux", 0x55f534bf4710, 255) = -1 ENODATA (No data available)
+getxattr("/etc/thunderbird", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/thunderbird", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/gss", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/gss", "security.selinux", 0x55f534bf4730, 255) = -1 ENODATA (No data available)
+getxattr("/etc/gss", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/gss", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/security", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/security", "security.selinux", 0x55f534bf4750, 255) = -1 ENODATA (No data available)
+getxattr("/etc/security", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/security", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/hdparm.conf", {st_mode=S_IFREG|0644, st_size=4861, ...}) = 0
+lgetxattr("/etc/hdparm.conf", "security.selinux", 0x55f534bf4770, 255) = -1 ENODATA (No data available)
+getxattr("/etc/hdparm.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/ppp", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/ppp", "security.selinux", 0x55f534bf4790, 255) = -1 ENODATA (No data available)
+getxattr("/etc/ppp", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/ppp", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/depmod.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/depmod.d", "security.selinux", 0x55f534bf47b0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/depmod.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/depmod.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/apparmor.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/apparmor.d", "security.selinux", 0x55f534bf47d0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/apparmor.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/apparmor.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/insserv.conf.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/insserv.conf.d", "security.selinux", 0x55f534bf47f0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/insserv.conf.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/insserv.conf.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/ifplugd", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/ifplugd", "security.selinux", 0x55f534bf4810, 255) = -1 ENODATA (No data available)
+getxattr("/etc/ifplugd", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/ifplugd", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/rsyslog.conf", {st_mode=S_IFREG|0644, st_size=1358, ...}) = 0
+lgetxattr("/etc/rsyslog.conf", "security.selinux", 0x55f534bf4830, 255) = -1 ENODATA (No data available)
+getxattr("/etc/rsyslog.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/timezone", {st_mode=S_IFREG|0644, st_size=14, ...}) = 0
+lgetxattr("/etc/timezone", "security.selinux", 0x55f534bf4850, 255) = -1 ENODATA (No data available)
+getxattr("/etc/timezone", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/selinux", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/selinux", "security.selinux", 0x55f534bf4870, 255) = -1 ENODATA (No data available)
+getxattr("/etc/selinux", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/selinux", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/usb_modeswitch.conf", {st_mode=S_IFREG|0644, st_size=1523, ...}) = 0
+lgetxattr("/etc/usb_modeswitch.conf", "security.selinux", 0x55f534bf4890, 255) = -1 ENODATA (No data available)
+getxattr("/etc/usb_modeswitch.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/kerneloops.conf", {st_mode=S_IFREG|0644, st_size=1308, ...}) = 0
+lgetxattr("/etc/kerneloops.conf", "security.selinux", 0x55f534bf48b0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/kerneloops.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/mailcap", {st_mode=S_IFREG|0644, st_size=45472, ...}) = 0
+lgetxattr("/etc/mailcap", "security.selinux", 0x55f534bf48d0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/mailcap", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/apm", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/apm", "security.selinux", 0x55f534bf48f0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/apm", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/apm", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/cron.daily", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/cron.daily", "security.selinux", 0x55f534bf4910, 255) = -1 ENODATA (No data available)
+getxattr("/etc/cron.daily", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/cron.daily", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/geoclue", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/geoclue", "security.selinux", 0x55f534bf4930, 255) = -1 ENODATA (No data available)
+getxattr("/etc/geoclue", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/geoclue", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/python2.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/python2.7", "security.selinux", 0x55f534be4980, 255) = -1 ENODATA (No data available)
+getxattr("/etc/python2.7", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/python2.7", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/magic", {st_mode=S_IFREG|0644, st_size=111, ...}) = 0
+lgetxattr("/etc/magic", "security.selinux", 0x55f534be49a0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/magic", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/calendar", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/calendar", "security.selinux", 0x55f534be49c0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/calendar", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/calendar", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/python3.8", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/python3.8", "security.selinux", 0x55f534be49e0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/python3.8", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/python3.8", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/ld.so.cache", {st_mode=S_IFREG|0644, st_size=78501, ...}) = 0
+lgetxattr("/etc/ld.so.cache", "security.selinux", 0x55f534be4a00, 255) = -1 ENODATA (No data available)
+getxattr("/etc/ld.so.cache", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/manpath.config", {st_mode=S_IFREG|0644, st_size=5174, ...}) = 0
+lgetxattr("/etc/manpath.config", "security.selinux", 0x55f534be4a20, 255) = -1 ENODATA (No data available)
+getxattr("/etc/manpath.config", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/fuse.conf", {st_mode=S_IFREG|0644, st_size=280, ...}) = 0
+lgetxattr("/etc/fuse.conf", "security.selinux", 0x55f534be4a40, 255) = -1 ENODATA (No data available)
+getxattr("/etc/fuse.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/netplan", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/netplan", "security.selinux", 0x55f534be4a60, 255) = -1 ENODATA (No data available)
+getxattr("/etc/netplan", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/netplan", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/subuid", {st_mode=S_IFREG|0644, st_size=27, ...}) = 0
+lgetxattr("/etc/subuid", "security.selinux", 0x55f534be4a80, 255) = -1 ENODATA (No data available)
+getxattr("/etc/subuid", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/crontab", {st_mode=S_IFREG|0644, st_size=722, ...}) = 0
+lgetxattr("/etc/crontab", "security.selinux", 0x55f534be4aa0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/crontab", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/bindresvport.blacklist", {st_mode=S_IFREG|0644, st_size=367, ...}) = 0
+lgetxattr("/etc/bindresvport.blacklist", "security.selinux", 0x55f534be4ac0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/bindresvport.blacklist", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/sensors3.conf", {st_mode=S_IFREG|0644, st_size=10368, ...}) = 0
+lgetxattr("/etc/sensors3.conf", "security.selinux", 0x55f534be4ae0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/sensors3.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/libreoffice", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/libreoffice", "security.selinux", 0x55f534be4b00, 255) = -1 ENODATA (No data available)
+getxattr("/etc/libreoffice", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/libreoffice", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/subgid", {st_mode=S_IFREG|0644, st_size=27, ...}) = 0
+lgetxattr("/etc/subgid", "security.selinux", 0x55f534be4b20, 255) = -1 ENODATA (No data available)
+getxattr("/etc/subgid", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/pm", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/pm", "security.selinux", 0x55f534be4b40, 255) = -1 ENODATA (No data available)
+getxattr("/etc/pm", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/pm", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/ufw", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/ufw", "security.selinux", 0x55f534be4b60, 255) = -1 ENODATA (No data available)
+getxattr("/etc/ufw", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/ufw", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/UPower", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/UPower", "security.selinux", 0x55f534be4b80, 255) = -1 ENODATA (No data available)
+getxattr("/etc/UPower", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/UPower", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/updatedb.conf", {st_mode=S_IFREG|0644, st_size=403, ...}) = 0
+lgetxattr("/etc/updatedb.conf", "security.selinux", 0x55f534be4ba0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/updatedb.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/cron.hourly", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/cron.hourly", "security.selinux", 0x55f534be4bc0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/cron.hourly", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/cron.hourly", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/gtk-2.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/gtk-2.0", "security.selinux", 0x55f534be4be0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/gtk-2.0", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/gtk-2.0", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/alternatives", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/alternatives", "security.selinux", 0x55f534be4c00, 255) = -1 ENODATA (No data available)
+getxattr("/etc/alternatives", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/alternatives", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/profile.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/profile.d", "security.selinux", 0x55f534be4c20, 255) = -1 ENODATA (No data available)
+getxattr("/etc/profile.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/profile.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/cron.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/cron.d", "security.selinux", 0x55f534be4c40, 255) = -1 ENODATA (No data available)
+getxattr("/etc/cron.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/cron.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/lintianrc", {st_mode=S_IFREG|0644, st_size=1417, ...}) = 0
+lgetxattr("/etc/lintianrc", "security.selinux", 0x55f534be4c60, 255) = -1 ENODATA (No data available)
+getxattr("/etc/lintianrc", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/magic.mime", {st_mode=S_IFREG|0644, st_size=111, ...}) = 0
+lgetxattr("/etc/magic.mime", "security.selinux", 0x55f534be4c80, 255) = -1 ENODATA (No data available)
+getxattr("/etc/magic.mime", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/sensors.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/sensors.d", "security.selinux", 0x55f534be4ca0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/sensors.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/sensors.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/mailcap.order", {st_mode=S_IFREG|0644, st_size=449, ...}) = 0
+lgetxattr("/etc/mailcap.order", "security.selinux", 0x55f534be4cc0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/mailcap.order", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/securetty", {st_mode=S_IFREG|0644, st_size=4141, ...}) = 0
+lgetxattr("/etc/securetty", "security.selinux", 0x55f534be4ce0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/securetty", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/apport", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/apport", "security.selinux", 0x55f534be4d00, 255) = -1 ENODATA (No data available)
+getxattr("/etc/apport", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/apport", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/binfmt.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/binfmt.d", "security.selinux", 0x55f534be4d20, 255) = -1 ENODATA (No data available)
+getxattr("/etc/binfmt.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/binfmt.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/polkit-1", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/polkit-1", "security.selinux", 0x55f534be4d40, 255) = -1 ENODATA (No data available)
+getxattr("/etc/polkit-1", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/polkit-1", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/zsh_command_not_found", {st_mode=S_IFREG|0644, st_size=477, ...}) = 0
+lgetxattr("/etc/zsh_command_not_found", "security.selinux", 0x55f534be4d60, 255) = -1 ENODATA (No data available)
+getxattr("/etc/zsh_command_not_found", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/ltrace.conf", {st_mode=S_IFREG|0644, st_size=14867, ...}) = 0
+lgetxattr("/etc/ltrace.conf", "security.selinux", 0x55f534be4d80, 255) = -1 ENODATA (No data available)
+getxattr("/etc/ltrace.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/udev", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/udev", "security.selinux", 0x55f534be4da0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/udev", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/udev", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/bash_completion.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/bash_completion.d", "security.selinux", 0x55f534be4dc0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/bash_completion.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/bash_completion.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/speech-dispatcher", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/speech-dispatcher", "security.selinux", 0x55f534be4de0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/speech-dispatcher", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/speech-dispatcher", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/groff", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/groff", "security.selinux", 0x55f534be4e00, 255) = -1 ENODATA (No data available)
+getxattr("/etc/groff", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/groff", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/terminfo", "security.selinux", 0x55f534be4e20, 255) = -1 ENODATA (No data available)
+getxattr("/etc/terminfo", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/terminfo", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/cron.monthly", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/cron.monthly", "security.selinux", 0x55f534be4e40, 255) = -1 ENODATA (No data available)
+getxattr("/etc/cron.monthly", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/cron.monthly", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/mke2fs.conf", {st_mode=S_IFREG|0644, st_size=812, ...}) = 0
+lgetxattr("/etc/mke2fs.conf", "security.selinux", 0x55f534be4e60, 255) = -1 ENODATA (No data available)
+getxattr("/etc/mke2fs.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/login.defs", {st_mode=S_IFREG|0644, st_size=10550, ...}) = 0
+lgetxattr("/etc/login.defs", "security.selinux", 0x55f534be4e80, 255) = -1 ENODATA (No data available)
+getxattr("/etc/login.defs", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/networkd-dispatcher", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/networkd-dispatcher", "security.selinux", 0x55f534be4ea0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/networkd-dispatcher", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/networkd-dispatcher", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/brltty.conf", {st_mode=S_IFREG|0644, st_size=25341, ...}) = 0
+lgetxattr("/etc/brltty.conf", "security.selinux", 0x55f534be4ec0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/brltty.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/modprobe.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/modprobe.d", "security.selinux", 0x55f534be4ee0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/modprobe.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/modprobe.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/pam.conf", {st_mode=S_IFREG|0644, st_size=552, ...}) = 0
+lgetxattr("/etc/pam.conf", "security.selinux", 0x55f534be4f00, 255) = -1 ENODATA (No data available)
+getxattr("/etc/pam.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/rc6.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/rc6.d", "security.selinux", 0x55f534be4f20, 255) = -1 ENODATA (No data available)
+getxattr("/etc/rc6.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/rc6.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/apparmor", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/apparmor", "security.selinux", 0x55f534be4f40, 255) = -1 ENODATA (No data available)
+getxattr("/etc/apparmor", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/apparmor", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/grub.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/grub.d", "security.selinux", 0x55f534be4f60, 255) = -1 ENODATA (No data available)
+getxattr("/etc/grub.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/grub.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/rc0.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/rc0.d", "security.selinux", 0x55f534be4f80, 255) = -1 ENODATA (No data available)
+getxattr("/etc/rc0.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/rc0.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/apt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/apt", "security.selinux", 0x55f534be4fa0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/apt", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/apt", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/acpi", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/acpi", "security.selinux", 0x55f534be4fc0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/acpi", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/acpi", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/dconf", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/dconf", "security.selinux", 0x55f534be4fe0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/dconf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/dconf", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/rc5.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/rc5.d", "security.selinux", 0x55f534be5000, 255) = -1 ENODATA (No data available)
+getxattr("/etc/rc5.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/rc5.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/gai.conf", {st_mode=S_IFREG|0644, st_size=2584, ...}) = 0
+lgetxattr("/etc/gai.conf", "security.selinux", 0x55f534be5020, 255) = -1 ENODATA (No data available)
+getxattr("/etc/gai.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/lighttpd", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/lighttpd", "security.selinux", 0x55f534be5040, 255) = -1 ENODATA (No data available)
+getxattr("/etc/lighttpd", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/lighttpd", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/ImageMagick-6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/ImageMagick-6", "security.selinux", 0x55f534be5060, 255) = -1 ENODATA (No data available)
+getxattr("/etc/ImageMagick-6", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/ImageMagick-6", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/network", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/network", "security.selinux", 0x55f534be5080, 255) = -1 ENODATA (No data available)
+getxattr("/etc/network", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/network", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/ssh", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/ssh", "security.selinux", 0x55f534be50a0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/ssh", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/ssh", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/skel", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/skel", "security.selinux", 0x55f534be50c0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/skel", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/skel", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/update-manager", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/update-manager", "security.selinux", 0x55f534be50e0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/update-manager", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/update-manager", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/gshadow", {st_mode=S_IFREG|0640, st_size=860, ...}) = 0
+lgetxattr("/etc/gshadow", "security.selinux", 0x55f534be5100, 255) = -1 ENODATA (No data available)
+getxattr("/etc/gshadow", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/ca-certificates.conf", {st_mode=S_IFREG|0644, st_size=5898, ...}) = 0
+lgetxattr("/etc/ca-certificates.conf", "security.selinux", 0x55f534be5120, 255) = -1 ENODATA (No data available)
+getxattr("/etc/ca-certificates.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/machine-id", {st_mode=S_IFREG|0444, st_size=33, ...}) = 0
+lgetxattr("/etc/machine-id", "security.selinux", 0x55f534be5140, 255) = -1 ENODATA (No data available)
+getxattr("/etc/machine-id", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/opt", "security.selinux", 0x55f534be5160, 255) = -1 ENODATA (No data available)
+getxattr("/etc/opt", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/opt", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/vtrgb", {st_mode=S_IFLNK|0777, st_size=23, ...}) = 0
+lgetxattr("/etc/vtrgb", "security.selinux", 0x55f534be5180, 255) = -1 ENODATA (No data available)
+readlink("/etc/vtrgb", "/etc/alternatives/vtrgb", 24) = 23
+lstat("/etc/rc4.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/rc4.d", "security.selinux", 0x55f534be51c0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/rc4.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/rc4.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/gdm3", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/gdm3", "security.selinux", 0x55f534be51e0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/gdm3", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/gdm3", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/initramfs-tools", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/initramfs-tools", "security.selinux", 0x55f534be5200, 255) = -1 ENODATA (No data available)
+getxattr("/etc/initramfs-tools", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/initramfs-tools", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/thermald", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/thermald", "security.selinux", 0x55f534be5220, 255) = -1 ENODATA (No data available)
+getxattr("/etc/thermald", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/thermald", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/nanorc", {st_mode=S_IFREG|0644, st_size=9048, ...}) = 0
+lgetxattr("/etc/nanorc", "security.selinux", 0x55f534be5240, 255) = -1 ENODATA (No data available)
+getxattr("/etc/nanorc", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/ucf.conf", {st_mode=S_IFREG|0644, st_size=1260, ...}) = 0
+lgetxattr("/etc/ucf.conf", "security.selinux", 0x55f534be5260, 255) = -1 ENODATA (No data available)
+getxattr("/etc/ucf.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/environment", {st_mode=S_IFREG|0644, st_size=96, ...}) = 0
+lgetxattr("/etc/environment", "security.selinux", 0x55f534be5280, 255) = -1 ENODATA (No data available)
+getxattr("/etc/environment", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/newt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/newt", "security.selinux", 0x55f534be52a0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/newt", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/newt", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/brlapi.key", {st_mode=S_IFREG|0640, st_size=33, ...}) = 0
+lgetxattr("/etc/brlapi.key", "security.selinux", 0x55f534be52c0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/brlapi.key", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/pcmcia", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/pcmcia", "security.selinux", 0x55f534be52e0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/pcmcia", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/pcmcia", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/rmt", {st_mode=S_IFREG|0755, st_size=268, ...}) = 0
+lgetxattr("/etc/rmt", "security.selinux", 0x55f534be5300, 255) = -1 ENODATA (No data available)
+getxattr("/etc/rmt", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/fstab", {st_mode=S_IFREG|0664, st_size=550, ...}) = 0
+lgetxattr("/etc/fstab", "security.selinux", 0x55f534be5320, 255) = -1 ENODATA (No data available)
+getxattr("/etc/fstab", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/PackageKit", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/PackageKit", "security.selinux", 0x55f534be5340, 255) = -1 ENODATA (No data available)
+getxattr("/etc/PackageKit", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/PackageKit", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/cron.weekly", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/cron.weekly", "security.selinux", 0x55f534be5360, 255) = -1 ENODATA (No data available)
+getxattr("/etc/cron.weekly", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/cron.weekly", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/protocols", {st_mode=S_IFREG|0644, st_size=2932, ...}) = 0
+lgetxattr("/etc/protocols", "security.selinux", 0x55f534be5380, 255) = -1 ENODATA (No data available)
+getxattr("/etc/protocols", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/group-", {st_mode=S_IFREG|0644, st_size=1002, ...}) = 0
+lgetxattr("/etc/group-", "security.selinux", 0x55f534be53a0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/group-", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/modules", {st_mode=S_IFREG|0644, st_size=195, ...}) = 0
+lgetxattr("/etc/modules", "security.selinux", 0x55f534be53c0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/modules", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/libnl-3", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/libnl-3", "security.selinux", 0x55f534be53e0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/libnl-3", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/libnl-3", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/update-notifier", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/update-notifier", "security.selinux", 0x55f534be5400, 255) = -1 ENODATA (No data available)
+getxattr("/etc/update-notifier", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/update-notifier", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/firefox", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/firefox", "security.selinux", 0x55f534be5420, 255) = -1 ENODATA (No data available)
+getxattr("/etc/firefox", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/firefox", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/LatexMk", {st_mode=S_IFREG|0644, st_size=59, ...}) = 0
+lgetxattr("/etc/LatexMk", "security.selinux", 0x55f534be5440, 255) = -1 ENODATA (No data available)
+getxattr("/etc/LatexMk", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/update-motd.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/update-motd.d", "security.selinux", 0x55f534be5460, 255) = -1 ENODATA (No data available)
+getxattr("/etc/update-motd.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/update-motd.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/gshadow-", {st_mode=S_IFREG|0640, st_size=845, ...}) = 0
+lgetxattr("/etc/gshadow-", "security.selinux", 0x55f534be5480, 255) = -1 ENODATA (No data available)
+getxattr("/etc/gshadow-", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/ld.so.conf", {st_mode=S_IFREG|0644, st_size=34, ...}) = 0
+lgetxattr("/etc/ld.so.conf", "security.selinux", 0x55f534be54a0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/ld.so.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/bash_completion", {st_mode=S_IFREG|0644, st_size=45, ...}) = 0
+lgetxattr("/etc/bash_completion", "security.selinux", 0x55f534be54c0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/bash_completion", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/localtime", {st_mode=S_IFLNK|0777, st_size=33, ...}) = 0
+lgetxattr("/etc/localtime", "security.selinux", 0x55f534be54e0, 255) = -1 ENODATA (No data available)
+readlink("/etc/localtime", "/usr/share/zoneinfo/Asia/Shangha"..., 34) = 33
+lstat("/etc/profile", {st_mode=S_IFREG|0644, st_size=581, ...}) = 0
+lgetxattr("/etc/profile", "security.selinux", 0x55f534be5530, 255) = -1 ENODATA (No data available)
+getxattr("/etc/profile", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/rc1.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/rc1.d", "security.selinux", 0x55f534be5550, 255) = -1 ENODATA (No data available)
+getxattr("/etc/rc1.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/rc1.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/subuid-", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+lgetxattr("/etc/subuid-", "security.selinux", 0x55f534be5570, 255) = -1 ENODATA (No data available)
+getxattr("/etc/subuid-", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/hp", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/hp", "security.selinux", 0x55f534be5590, 255) = -1 ENODATA (No data available)
+getxattr("/etc/hp", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/hp", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/brltty", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/brltty", "security.selinux", 0x55f534be55b0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/brltty", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/brltty", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/passwd-", {st_mode=S_IFREG|0644, st_size=2428, ...}) = 0
+lgetxattr("/etc/passwd-", "security.selinux", 0x55f534be55d0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/passwd-", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/wpa_supplicant", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/wpa_supplicant", "security.selinux", 0x55f534be55f0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/wpa_supplicant", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/wpa_supplicant", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/texmf", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/texmf", "security.selinux", 0x55f534be5610, 255) = -1 ENODATA (No data available)
+getxattr("/etc/texmf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/texmf", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/gnome", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/gnome", "security.selinux", 0x55f534be5630, 255) = -1 ENODATA (No data available)
+getxattr("/etc/gnome", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/gnome", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+brk(0x55f534c32000)                     = 0x55f534c32000
+brk(0x55f534c29000)                     = 0x55f534c29000
+lstat("/etc/debconf.conf", {st_mode=S_IFREG|0644, st_size=2969, ...}) = 0
+lgetxattr("/etc/debconf.conf", "security.selinux", 0x55f534be5650, 255) = -1 ENODATA (No data available)
+getxattr("/etc/debconf.conf", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/X11", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/X11", "security.selinux", 0x55f534be5670, 255) = -1 ENODATA (No data available)
+getxattr("/etc/X11", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/X11", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/dpkg", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/dpkg", "security.selinux", 0x55f534be5690, 255) = -1 ENODATA (No data available)
+getxattr("/etc/dpkg", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/dpkg", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/usb_modeswitch.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/usb_modeswitch.d", "security.selinux", 0x55f534be56b0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/usb_modeswitch.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/usb_modeswitch.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/init", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/init", "security.selinux", 0x55f534be56d0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/init", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/init", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/os-release", {st_mode=S_IFLNK|0777, st_size=21, ...}) = 0
+lgetxattr("/etc/os-release", "security.selinux", 0x55f534be56f0, 255) = -1 ENODATA (No data available)
+readlink("/etc/os-release", "../usr/lib/os-release", 22) = 21
+lstat("/etc/ldap", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/ldap", "security.selinux", 0x55f534be5730, 255) = -1 ENODATA (No data available)
+getxattr("/etc/ldap", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/ldap", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/kernel", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/kernel", "security.selinux", 0x55f534be5750, 255) = -1 ENODATA (No data available)
+getxattr("/etc/kernel", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/kernel", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/gtk-3.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/gtk-3.0", "security.selinux", 0x55f534be5770, 255) = -1 ENODATA (No data available)
+getxattr("/etc/gtk-3.0", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/gtk-3.0", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/shadow-", {st_mode=S_IFREG|0640, st_size=1279, ...}) = 0
+lgetxattr("/etc/shadow-", "security.selinux", 0x55f534be5790, 255) = -1 ENODATA (No data available)
+getxattr("/etc/shadow-", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/iproute2", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/iproute2", "security.selinux", 0x55f534be57b0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/iproute2", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/iproute2", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/console-setup", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/console-setup", "security.selinux", 0x55f534be57d0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/console-setup", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/console-setup", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/modules-load.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/modules-load.d", "security.selinux", 0x55f534be57f0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/modules-load.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/modules-load.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/rsyslog.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/rsyslog.d", "security.selinux", 0x55f534be5810, 255) = -1 ENODATA (No data available)
+getxattr("/etc/rsyslog.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/rsyslog.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/gdb", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/gdb", "security.selinux", 0x55f534be5830, 255) = -1 ENODATA (No data available)
+getxattr("/etc/gdb", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/gdb", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/debian_version", {st_mode=S_IFREG|0644, st_size=11, ...}) = 0
+lgetxattr("/etc/debian_version", "security.selinux", 0x55f534be5850, 255) = -1 ENODATA (No data available)
+getxattr("/etc/debian_version", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/issue", {st_mode=S_IFREG|0644, st_size=26, ...}) = 0
+lgetxattr("/etc/issue", "security.selinux", 0x55f534be5870, 255) = -1 ENODATA (No data available)
+getxattr("/etc/issue", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/passwd", {st_mode=S_IFREG|0644, st_size=2473, ...}) = 0
+lgetxattr("/etc/passwd", "security.selinux", 0x55f534be5890, 255) = -1 ENODATA (No data available)
+getxattr("/etc/passwd", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/rcS.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/rcS.d", "security.selinux", 0x55f534be58b0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/rcS.d", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/rcS.d", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+lstat("/etc/default", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/etc/default", "security.selinux", 0x55f534be58d0, 255) = -1 ENODATA (No data available)
+getxattr("/etc/default", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("/etc/default", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/share/locale/zh_CN/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/zh/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/zh_CN/LC_MESSAGES/coreutils.mo", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=157123, ...}) = 0
+mmap(NULL, 157123, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7faf51250000
+close(3)                                = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 0), ...}) = 0
+write(1, "\346\200\273\347\224\250\351\207\217 1100\n", 15) = 15
+openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=554, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=554, ...}) = 0
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0\3\0\0\0\0"..., 4096) = 554
+lseek(3, -339, SEEK_CUR)                = 215
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0\3\0\0\0\0"..., 4096) = 339
+close(3)                                = 0
+write(1, "drwxr-xr-x  3 root root    4096 "..., 52) = 52
+write(1, "-rw-r--r--  1 root root    3028 "..., 60) = 60
+write(1, "drwxr-xr-x  2 root root    4096 "..., 60) = 60
+write(1, "-rw-r--r--  1 root root     401 "..., 58) = 58
+write(1, "drwxr-xr-x  3 root root    4096 "..., 55) = 55
+write(1, "-rw-r--r--  1 root root     433 "..., 56) = 56
+write(1, "drwxr-xr-x  6 root root    4096 "..., 51) = 51
+write(1, "drwxr-xr-x  3 root root    4096 "..., 56) = 56
+write(1, "drwxr-xr-x  8 root root    4096 "..., 58) = 58
+write(1, "drwxr-xr-x  4 root root    4096 "..., 54) = 54
+write(1, "-rw-r--r--  1 root root     769 "..., 62) = 62
+write(1, "drwxr-xr-x  7 root root    4096 "..., 51) = 51
+write(1, "drwxr-xr-x  3 root root    4096 "..., 53) = 53
+write(1, "-rw-r--r--  1 root root    2319 "..., 59) = 59
+write(1, "-rw-r--r--  1 root root      45 "..., 63) = 63
+write(1, "drwxr-xr-x  2 root root    4096 "..., 65) = 65
+write(1, "-rw-r--r--  1 root root     367 "..., 70) = 70
+write(1, "drwxr-xr-x  2 root root    4096 "..., 56) = 56
+write(1, "drwxr-xr-x  2 root root    4096 "..., 57) = 57
+write(1, "-rw-r-----  1 root root      33 "..., 58) = 58
+write(1, "drwxr-xr-x  7 root root    4096 "..., 54) = 54
+write(1, "-rw-r--r--  1 root root   25341 "..., 59) = 59
+write(1, "drwxr-xr-x  3 root root    4096 "..., 63) = 63
+write(1, "-rw-r--r--  1 root root    5898 "..., 68) = 68
+write(1, "drwxr-xr-x  2 root root    4096 "..., 56) = 56
+write(1, "drwxr-s---  2 root dip     4096 "..., 59) = 59
+write(1, "drwxr-xr-x  2 root root    4096 "..., 61) = 61
+write(1, "drwxr-xr-x  2 root root    4096 "..., 56) = 56
+write(1, "drwxr-xr-x  2 root root    4096 "..., 54) = 54
+write(1, "drwxr-xr-x  2 root root    4096 "..., 58) = 58
+write(1, "drwxr-xr-x  2 root root    4096 "..., 59) = 59
+write(1, "drwxr-xr-x  2 root root    4096 "..., 60) = 60
+write(1, "-rw-r--r--  1 root root     722 "..., 55) = 55
+write(1, "drwxr-xr-x  2 root root    4096 "..., 59) = 59
+write(1, "drwxr-xr-x  5 root lp      4096 "..., 52) = 52
+write(1, "drwxr-xr-x  2 root root    4096 "..., 59) = 59
+write(1, "drwxr-xr-x  4 root root    4096 "..., 54) = 54
+write(1, "drwxr-xr-x  4 root root    4096 "..., 53) = 53
+write(1, "-rw-r--r--  1 root root    2969 "..., 60) = 60
+write(1, "-rw-r--r--  1 root root      11 "..., 62) = 62
+write(1, "drwxr-xr-x  2 root root    4096 "..., 55) = 55
+write(1, "-rw-r--r--  1 root root     604 "..., 60) = 60
+write(1, "drwxr-xr-x  2 root root    4096 "..., 56) = 56
+write(1, "drwxr-xr-x  4 root root    4096 "..., 52) = 52
+write(1, "drwxr-xr-x  2 root root    4096 "..., 67) = 67
+write(1, "drwxr-xr-x  4 root root    4096 "..., 52) = 52
+write(1, "drwxr-xr-x  3 root root    4096 "..., 53) = 53
+write(1, "-rw-r--r--  1 root root      96 "..., 59) = 59
+write(1, "drwxr-xr-x  3 root root    4096 "..., 55) = 55
+write(1, "drwxr-xr-x  4 root root    4096 "..., 53) = 53
+write(1, "-rw-rw-r--  1 root root     550 "..., 53) = 53
+write(1, "-rw-r--r--  1 root root     280 "..., 57) = 57
+write(1, "drwxr-xr-x  3 root root    4096 "..., 53) = 53
+write(1, "-rw-r--r--  1 root root    2584 "..., 56) = 56
+write(1, "drwxr-xr-x  2 root root    4096 "..., 51) = 51
+write(1, "drwxr-xr-x  8 root root    4096 "..., 52) = 52
+write(1, "drwxr-xr-x  2 root root    4096 "..., 55) = 55
+write(1, "drwxr-xr-x  4 root root    4096 "..., 59) = 59
+write(1, "drwxr-xr-x  3 root root    4096 "..., 53) = 53
+write(1, "drwxr-xr-x  2 root root    4096 "..., 53) = 53
+write(1, "drwxr-xr-x  2 root root    4096 "..., 53) = 53
+write(1, "-rw-r--r--  1 root root    1020 "..., 53) = 53
+write(1, "-rw-r--r--  1 root root    1002 "..., 54) = 54
+write(1, "drwxr-xr-x  2 root root    4096 "..., 54) = 54
+write(1, "-rw-r-----  1 root shadow   860 "..., 55) = 55
+write(1, "-rw-r-----  1 root shadow   845 "..., 56) = 56
+write(1, "drwxr-xr-x  3 root root    4096 "..., 51) = 51
+write(1, "drwxr-xr-x  2 root root    4096 "..., 55) = 55
+write(1, "drwxr-xr-x  2 root root    4096 "..., 55) = 55
+write(1, "-rw-r--r--  1 root root    4861 "..., 59) = 59
+write(1, "-rw-r--r--  1 root root      92 "..., 57) = 57
+write(1, "-rw-r--r--  1 root root      25 "..., 56) = 56
+write(1, "-rw-r--r--  1 root root     239 "..., 53) = 53
+write(1, "-rw-r--r--  1 root root     411 "..., 59) = 59
+write(1, "-rw-r--r--  1 root root     711 "..., 58) = 58
+write(1, "drwxr-xr-x  2 root root    4096 "..., 50) = 50
+write(1, "drwxr-xr-x  3 root root    4096 "..., 55) = 55
+write(1, "drwxr-xr-x  2 root root    4096 "..., 61) = 61
+write(1, "drwxr-xr-x  2 root root    4096 "..., 52) = 52
+write(1, "drwxr-xr-x  2 root root    4096 "..., 54) = 54
+write(1, "drwxr-xr-x  5 root root    4096 "..., 63) = 63
+write(1, "-rw-r--r--  1 root root    1748 "..., 55) = 55
+write(1, "drwxr-xr-x  2 root root    4096 "..., 62) = 62
+write(1, "drwxr-xr-x  4 root root    4096 "..., 56) = 56
+write(1, "-rw-r--r--  1 root root      26 "..., 53) = 53
+write(1, "-rw-r--r--  1 root root      19 "..., 57) = 57
+write(1, "drwxr-xr-x  7 root root    4096 "..., 54) = 54
+write(1, "-rw-r--r--  1 root root     110 "..., 63) = 63
+write(1, "-rw-r--r--  1 root root    1308 "..., 63) = 63
+write(1, "-rw-r--r--  1 root root      59 "..., 55) = 55
+write(1, "drwxr-xr-x  2 root root    4096 "..., 52) = 52
+write(1, "-rw-r--r--  1 root root   78501 "..., 59) = 59
+write(1, "-rw-r--r--  1 root root      34 "..., 58) = 58
+write(1, "drwxr-xr-x  2 root root    4096 "..., 60) = 60
+write(1, "-rw-r--r--  1 root root     267 "..., 53) = 53
+write(1, "-rw-r--r--  1 root root      27 "..., 58) = 58
+write(1, "-rw-r--r--  1 root root     191 "..., 61) = 61
+write(1, "drwxr-xr-x  3 root root    4096 "..., 59) = 59
+write(1, "drwxr-xr-x  2 root root    4096 "..., 55) = 55
+write(1, "drwxr-xr-x  2 root root    4096 "..., 58) = 58
+write(1, "drwxr-xr-x  2 root root    4096 "..., 59) = 59
+write(1, "drwxr-xr-x  4 root root    4096 "..., 56) = 56
+write(1, "-rw-r--r--  1 root root    1417 "..., 57) = 57
+write(1, "-rw-r--r--  1 root root    2995 "..., 60) = 60
+write(1, "-rw-r--r--  1 root root    9393 "..., 58) = 58
+write(1, "lrwxrwxrwx  1 root root      33 "..., 94) = 94
+write(1, "drwxr-xr-x  4 root root    4096 "..., 56) = 56
+write(1, "-rw-r--r--  1 root root   10550 "..., 58) = 58
+write(1, "-rw-r--r--  1 root root     703 "..., 62) = 62
+write(1, "drwxr-xr-x  2 root root    4096 "..., 59) = 59
+write(1, "-rw-r--r--  1 root root     105 "..., 59) = 59
+write(1, "-rw-r--r--  1 root root   14867 "..., 59) = 59
+write(1, "-r--r--r--  1 root root      33 "..., 58) = 58
+write(1, "-rw-r--r--  1 root root     111 "..., 53) = 53
+write(1, "-rw-r--r--  1 root root     111 "..., 58) = 58
+write(1, "-rw-r--r--  1 root root   45472 "..., 55) = 55
+write(1, "-rw-r--r--  1 root root     449 "..., 61) = 61
+write(1, "-rw-r--r--  1 root root    5174 "..., 62) = 62
+write(1, "-rw-r--r--  1 root root   24301 "..., 58) = 58
+write(1, "-rw-r--r--  1 root root     812 "..., 59) = 59
+write(1, "drwxr-xr-x  2 root root    4096 "..., 58) = 58
+write(1, "-rw-r--r--  1 root root     195 "..., 55) = 55
+write(1, "drwxr-xr-x  2 root root    4096 "..., 62) = 62
+write(1, "lrwxrwxrwx  1 root root      19 "..., 75) = 75
+write(1, "-rw-r--r--  1 root root     624 "..., 59) = 59
+write(1, "-rw-r--r--  1 root root    9048 "..., 54) = 54
+write(1, "drwxr-xr-x  2 root root    4096 "..., 55) = 55
+write(1, "drwxr-xr-x  7 root root    4096 "..., 55) = 55
+write(1, "drwxr-xr-x  6 root root    4096 "..., 67) = 67
+write(1, "drwxr-xr-x  7 root root    4096 "..., 62) = 62
+write(1, "-rw-r--r--  1 root root      91 "..., 56) = 56
+write(1, "drwxr-xr-x  2 root root    4096 "..., 52) = 52
+write(1, "-rw-r--r--  1 root root     556 "..., 61) = 61
+write(1, "drwxr-xr-x  2 root root    4096 "..., 51) = 51
+write(1, "lrwxrwxrwx  1 root root      21 "..., 83) = 83
+write(1, "drwxr-xr-x  2 root root    4096 "..., 58) = 58
+write(1, "-rw-r--r--  1 root root     552 "..., 56) = 56
+write(1, "drwxr-xr-x  2 root root    4096 "..., 53) = 53
+write(1, "-rw-rw-r--  1 root root       3 "..., 57) = 57
+write(1, "-rw-r--r--  1 root root    2473 "..., 54) = 54
+write(1, "-rw-r--r--  1 root root    2428 "..., 55) = 55
+write(1, "drwxr-xr-x  2 root root    4096 "..., 54) = 54
+write(1, "drwxr-xr-x  5 root root    4096 "..., 52) = 52
+write(1, "drwxr-xr-x  4 root root    4096 "..., 51) = 51
+write(1, "drwxr-xr-x  3 root root    4096 "..., 50) = 50
+write(1, "-rw-r--r--  1 root root    7649 "..., 60) = 60
+write(1, "drwxr-xr-x  5 root root    4096 "..., 56) = 56
+write(1, "-rw-rw-r--  1 root root     350 "..., 71) = 71
+write(1, "drwxr-xr-x  8 root dip     4096 "..., 51) = 51
+write(1, "-rw-r--r--  1 root root     581 "..., 55) = 55
+write(1, "drwxr-xr-x  2 root root    4096 "..., 57) = 57
+write(1, "-rw-r--r--  1 root root    2932 "..., 57) = 57
+write(1, "drwxr-xr-x  2 root root    4096 "..., 53) = 53
+write(1, "drwxr-xr-x  2 root root    4096 "..., 54) = 54
+write(1, "drwxr-xr-x  2 root root    4096 "..., 57) = 57
+write(1, "drwxr-xr-x  2 root root    4096 "..., 55) = 55
+write(1, "drwxr-xr-x  2 root root    4096 "..., 57) = 57
+write(1, "drwxr-xr-x  2 root root    4096 "..., 57) = 57
+write(1, "drwxr-xr-x  2 root root    4096 "..., 53) = 53
+write(1, "drwxr-xr-x  2 root root    4096 "..., 53) = 53
+write(1, "drwxr-xr-x  2 root root    4096 "..., 53) = 53
+write(1, "drwxr-xr-x  2 root root    4096 "..., 53) = 53
+write(1, "drwxr-xr-x  2 root root    4096 "..., 53) = 53
+write(1, "drwxr-xr-x  2 root root    4096 "..., 53) = 53
+write(1, "drwxr-xr-x  2 root root    4096 "..., 53) = 53
+write(1, "drwxr-xr-x  2 root root    4096 "..., 53) = 53
+write(1, "drwxr-xr-x  3 root root    4096 "..., 58) = 58
+write(1, "lrwxrwxrwx  1 root root      39 "..., 102) = 102
+write(1, "-rwxr-xr-x  1 root root     268 "..., 51) = 51
+write(1, "-rw-r--r--  1 root root     887 "..., 51) = 51
+write(1, "-rw-r--r--  1 root root    1358 "..., 60) = 60
+write(1, "drwxr-xr-x  2 root root    4096 "..., 57) = 57
+write(1, "drwxr-xr-x  3 root root    4096 "..., 54) = 54
+write(1, "-rw-r--r--  1 root root    4141 "..., 57) = 57
+write(1, "drwxr-xr-x  4 root root    4096 "..., 56) = 56
+write(1, "drwxr-xr-x  2 root root    4096 "..., 55) = 55
+write(1, "-rw-r--r--  1 root root   10368 "..., 61) = 61
+write(1, "drwxr-xr-x  2 root root    4096 "..., 57) = 57
+write(1, "-rw-r--r--  1 root root   19183 "..., 56) = 56
+write(1, "-rw-r-----  1 root shadow  1301 "..., 54) = 54
+write(1, "-rw-r-----  1 root shadow  1279 "..., 55) = 55
+write(1, "-rw-r--r--  1 root root      73 "..., 54) = 54
+write(1, "drwxr-xr-x  2 root root    4096 "..., 52) = 52
+write(1, "drwxr-xr-x  4 root root    4096 "..., 65) = 65
+write(1, "drwxr-xr-x  2 root root    4096 "..., 51) = 51
+write(1, "drwxr-xr-x  4 root root    4096 "..., 51) = 51
+write(1, "-rw-r--r--  1 root root      27 "..., 54) = 54
+write(1, "-rw-r--r--  1 root root       0 "..., 55) = 55
+write(1, "-rw-r--r--  1 root root      27 "..., 54) = 54
+write(1, "-rw-r--r--  1 root root       0 "..., 55) = 55
+write(1, "-r--r-----  1 root root     755 "..., 55) = 55
+write(1, "drwxr-xr-x  2 root root    4096 "..., 57) = 57
+write(1, "-rw-r--r--  1 root root    2683 "..., 59) = 59
+write(1, "drwxr-xr-x  2 root root    4096 "..., 56) = 56
+write(1, "drwxr-xr-x  5 root root    4096 "..., 55) = 55
+write(1, "drwxr-xr-x  2 root root    4096 "..., 56) = 56
+write(1, "drwxr-xr-x  8 root root    4096 "..., 53) = 53
+write(1, "drwxr-xr-x  2 root root    4096 "..., 56) = 56
+write(1, "drwxr-xr-x  2 root root    4096 "..., 59) = 59
+write(1, "-rw-r--r--  1 root root      14 "..., 56) = 56
+write(1, "drwxr-xr-x  2 root root    4096 "..., 58) = 58
+write(1, "drwxr-xr-x  2 root root    4096 "..., 64) = 64
+write(1, "-rw-r--r--  1 root root    1260 "..., 56) = 56
+write(1, "drwxr-xr-x  4 root root    4096 "..., 52) = 52
+write(1, "drwxr-xr-x  2 root root    4096 "..., 55) = 55
+write(1, "drwxr-xr-x  3 root root    4096 "..., 51) = 51
+write(1, "-rw-r--r--  1 root root     403 "..., 61) = 61
+write(1, "drwxr-xr-x  3 root root    4096 "..., 62) = 62
+write(1, "drwxr-xr-x  2 root root    4096 "..., 61) = 61
+write(1, "drwxr-xr-x  2 root root    4096 "..., 63) = 63
+write(1, "drwxr-xr-x  2 root root    4096 "..., 54) = 54
+write(1, "-rw-r--r--  1 root root    1523 "..., 67) = 67
+write(1, "drwxr-xr-x  2 root root    4096 "..., 64) = 64
+write(1, "drwxr-xr-x  2 root root    4096 "..., 51) = 51
+write(1, "lrwxrwxrwx  1 root root      23 "..., 80) = 80
+write(1, "-rw-r--r--  1 root root    4942 "..., 54) = 54
+write(1, "drwxr-xr-x  2 root root    4096 "..., 62) = 62
+write(1, "drwxr-xr-x 11 root root    4096 "..., 51) = 51
+write(1, "drwxr-xr-x  5 root root    4096 "..., 51) = 51
+write(1, "-rw-r--r--  1 root root     477 "..., 69) = 69
+close(1)                                = 0
+close(2)                                = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
