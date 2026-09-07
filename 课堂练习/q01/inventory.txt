@@ -1,0 +1,8 @@
+ &s
+25020007084 &s
+25020007084/input &s
+25020007084/input/tmp &s
+25020007084/input/tmp/empty.txt &s
+25020007084/input/docs &s
+25020007084/input/docs/notes one.txt &s
+25020007084/input/docs/secret.txt &s
